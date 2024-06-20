@@ -1,0 +1,217 @@
+/* $sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px; */
+
+.ig-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.cart-header{
+  font-size: 48px;
+  font-family: "Lora", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #b34a13;
+}
+
+.cart-empty-text{
+  font-size: 24px;
+  font-family: "Lora", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  color: #b34a13;
+}
+
+.cart-have-an-account-text{
+  margin-top: 36px;
+    font-size: 24px;
+  font-family: "Lora", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  color: #b34a13;
+}
+.cart-login-text{
+  font-size: 16px;
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #b34a13;
+}
+.cart-login-text > a{
+  font-size: 16px;
+  font-family: "Lora", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #b34a13;
+}
+.cart-continue-button{
+  display: block;
+    font-size: 18px !important;
+  font-family: "Montserrat", sans-serif !important;
+  color: #da2926 !important;
+  letter-spacing: 0px;
+  font-weight: 600;
+  margin-top: 24px;
+  background-color: white !important;
+  border-radius: 8px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: fit-content;
+  border: 2px solid #da2926 !important;
+  box-shadow: none !important;
+  padding: 8px 24px;
+  text-decoration: none;
+}
+.cart-continue-button:before{
+  border: 2px solid #da2926 !important;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+}
+.cart-continue-button:after{
+  box-shadow: none !important;
+  border-radius: 8px !important;
+}
+.cart-th-row-text{
+  font-size: 14px;
+  font-family: "Lora", sans-serif;
+  font-weight: bold !important;
+  text-align: left;
+  color: #b34a13 !important;
+}
+.cart-td-row-text-total{
+  font-size: 18px;
+  font-family: "Lora", sans-serif;
+  font-weight: 500 !important;
+  text-align: center;
+  color: #b34a13 !important;
+}
+.cart-td-row-text{
+  font-size: 13px;
+  font-family: "Lora", sans-serif;
+  font-weight: 500 !important;
+  text-align: left;
+  color: #b34a13 !important;
+}
+.cart-continue-button:hover{
+  color: white !important;
+  background-color: #da2926 !important;
+}
+
+.cart-continue-text{
+   font-size: 16px;
+  font-family: "Lora", sans-serif;
+  font-weight: 800;
+  text-align: left;
+  color: #b34a13;
+}
+.account-order-history-title {
+  font-size: 24px;
+  font-family: "Lora", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #b34a13;
+}
+.account-order-desc-bold {
+  font-size: 16px;
+  font-family: "Lora", sans-serif !important;
+  font-weight: bold !important;
+  text-align: left;
+  color: #b34a13 !important;
+}
+.account-order-desc {
+  font-size: 16px;
+  font-family: "Lora", sans-serif !important;
+  font-weight: normal;
+  text-align: left;
+  color: #b34a13 !important;
+}
+.account-title {
+  font-size: 48px;
+  font-family: "Lora", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #b34a13;
+}
+
+.login-page-control {
+  width: 100vw;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  max-width: 100vw !important;
+}
+.login-header-text-bold {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #b34a13;
+}
+.login-button {
+  font-size: 18px !important;
+  font-family: "Lora", sans-serif !important;
+  color: white !important;
+  background-color: #da2926 !important;
+  border-radius: 8px !important;
+  margin-right: auto !important;
+  width: 100% !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.login-button::after {
+  box-shadow: none !important;
+}
+
+.login-img-right-control {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: cover;
+}
+.login-header-text {
+  font-size: 14px;
+  font-family: Lora;
+  color: #b34a13;
+  text-align: left;
+}
+
+.login-form-control {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-grid-control {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.login-item-control {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .login-grid-control {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .login-img-right-control {
+    display: none;
+  }
+
+  .login-form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .login-header-text {
+    text-align: center;
+  }
+
+  .login-header-text-bold {
+    text-align: center;
+  }
+}

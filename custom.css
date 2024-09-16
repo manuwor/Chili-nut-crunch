@@ -1,8 +1,44 @@
+// Define breakpoints as variables
 /* $sm: 576px;
 $md: 768px;
 $lg: 992px;
 $xl: 1200px; */
 
+.icon {
+  color: #da2926 !important;
+}
+.cart-items-padding {
+  padding-bottom: 0px !important;
+}
+
+.cart__note label {
+  font-weight: bold !important;
+  font-size: 12px !important;
+  color: #da2926 !important;
+}
+
+.terms-relentless .rterms-checkbox {
+  font-size: 12px !important;
+  color: #da2926 !important;
+}
+.cart-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 36px !important;
+}
+
+.custom-collection-h3 {
+  font-size: 18px !important;
+}
+.ig-custom {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 11px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #da2926;
+}
 .ig-icon {
   width: 20px;
   height: 20px;
@@ -10,47 +46,49 @@ $xl: 1200px; */
   margin-right: 20px;
 }
 
-.cart-header{
+.cart-header {
   font-size: 48px;
   font-family: "Lora", sans-serif;
   font-weight: bold;
   text-align: left;
-  color: #b34a13;
+  color: #da2926;
 }
 
-.cart-empty-text{
+.cart-empty-text {
   font-size: 24px;
   font-family: "Lora", sans-serif;
   font-weight: 800;
   text-align: center;
-  color: #b34a13;
+  color: #da2926;
 }
-
-.cart-have-an-account-text{
+.totals__total {
+  font-size: 18px !important;
+}
+.cart-have-an-account-text {
   margin-top: 36px;
-    font-size: 24px;
+  font-size: 24px;
   font-family: "Lora", sans-serif;
   font-weight: 800;
   text-align: center;
-  color: #b34a13;
+  color: #da2926;
 }
-.cart-login-text{
+.cart-login-text {
   font-size: 16px;
   font-family: "Lora", sans-serif;
   font-weight: 400;
   text-align: center;
-  color: #b34a13;
+  color: #da2926;
 }
-.cart-login-text > a{
+.cart-login-text > a {
   font-size: 16px;
   font-family: "Lora", sans-serif;
   font-weight: bold;
   text-align: center;
-  color: #b34a13;
+  color: #da2926;
 }
-.cart-continue-button{
+.cart-continue-button {
   display: block;
-    font-size: 18px !important;
+  font-size: 18px !important;
   font-family: "Montserrat", sans-serif !important;
   color: #da2926 !important;
   letter-spacing: 0px;
@@ -66,75 +104,76 @@ $xl: 1200px; */
   padding: 8px 24px;
   text-decoration: none;
 }
-.cart-continue-button:before{
+.cart-continue-button:before {
   border: 2px solid #da2926 !important;
   box-shadow: none !important;
   border-radius: 8px !important;
 }
-.cart-continue-button:after{
+.cart-continue-button:after {
   box-shadow: none !important;
   border-radius: 8px !important;
 }
-.cart-th-row-text{
+.cart-th-row-text {
   font-size: 14px;
   font-family: "Lora", sans-serif;
   font-weight: bold !important;
   text-align: left;
-  color: #b34a13 !important;
+  color: #da2926 !important;
 }
-.cart-td-row-text-total{
+.cart-td-row-text-total {
   font-size: 18px;
   font-family: "Lora", sans-serif;
   font-weight: 500 !important;
   text-align: center;
-  color: #b34a13 !important;
+  color: #da2926 !important;
 }
-.cart-td-row-text{
+.cart-td-row-text {
   font-size: 13px;
   font-family: "Lora", sans-serif;
   font-weight: 500 !important;
   text-align: left;
-  color: #b34a13 !important;
+  color: #da2926 !important;
 }
-.cart-continue-button:hover{
+.cart-continue-button:hover {
   color: white !important;
   background-color: #da2926 !important;
 }
 
-.cart-continue-text{
-   font-size: 16px;
+.cart-continue-text {
+  font-size: 16px;
   font-family: "Lora", sans-serif;
   font-weight: 800;
   text-align: left;
-  color: #b34a13;
+  color: #da2926;
 }
 .account-order-history-title {
   font-size: 24px;
   font-family: "Lora", sans-serif;
   font-weight: bold;
   text-align: left;
-  color: #b34a13;
+  color: #da2926;
 }
 .account-order-desc-bold {
   font-size: 16px;
   font-family: "Lora", sans-serif !important;
   font-weight: bold !important;
   text-align: left;
-  color: #b34a13 !important;
+  color: #da2926 !important;
 }
 .account-order-desc {
   font-size: 16px;
   font-family: "Lora", sans-serif !important;
   font-weight: normal;
   text-align: left;
-  color: #b34a13 !important;
+  color: #da2926 !important;
 }
+
 .account-title {
   font-size: 48px;
   font-family: "Lora", sans-serif;
   font-weight: bold;
   text-align: left;
-  color: #b34a13;
+  color: #da2926;
 }
 
 .login-page-control {
@@ -148,7 +187,7 @@ $xl: 1200px; */
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-align: left;
-  color: #b34a13;
+  color: #da2926;
 }
 .login-button {
   font-size: 18px !important;
@@ -173,7 +212,7 @@ $xl: 1200px; */
 .login-header-text {
   font-size: 14px;
   font-family: Lora;
-  color: #b34a13;
+  color: #da2926;
   text-align: left;
 }
 
@@ -213,5 +252,20 @@ $xl: 1200px; */
 
   .login-header-text-bold {
     text-align: center;
+  }
+}
+
+@media (max-width: 552px) {
+  .cart-td-row-text {
+    font-size: 12px !important;
+  }
+
+  .totals__total {
+    font-size: 15px !important;
+  }
+
+  .totals__total-value {
+    font-size: 15px !important;
+    font-weight: bold !important;
   }
 }
